@@ -8,7 +8,7 @@
 static DebugHelper Debug("IRSensor");
 
 
-EVENT_ID IRSensor::DETECT_EVENT = EventSource::GenerateEventID(); 
+//EVENT_ID IRSensor::DETECT_EVENT = EventSource::GenerateEventID(); 
 
 
 IRSensor::IRSensor(const int pin, const uint8_t mode=MODE_STATECHANGE, const int ledPin)

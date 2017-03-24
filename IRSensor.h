@@ -7,7 +7,7 @@
 
 class IRSensor : public EventSource
 {
-    public: static EVENT_ID DETECT_EVENT; 
+    public: static const EVENT_ID DETECT_EVENT = (EventSourceID::IRSensor | EventCode::DefaultEvent); 
     
     public: static const uint8_t MODE_STATECHANGE = 0;
     public: static const uint8_t MODE_CONTINUOUS  = 1;
