@@ -10,7 +10,6 @@ DEFINE_CLASSNAME(IRSensor);
 
 IRSensor::IRSensor(const uint8_t pin, const uint8_t mode)
 {
-    _id = "IRSensor";
     _state.SensorPin = pin;
     _state.Mode = mode;
     _state.LastReading = false;
